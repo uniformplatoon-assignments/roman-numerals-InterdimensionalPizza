@@ -26,4 +26,4 @@ let romanMatrix = [
     return answer
   }
 
-console.log(convertToRoman(123))
+console.log(convertToRoman(123)) //CXXIII
