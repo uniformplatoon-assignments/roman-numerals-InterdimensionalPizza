@@ -1,6 +1,6 @@
 def to_roman(num):
     roman_list = [
-        [1000, "C"], 
+        [1000, "M"], 
         [900, "CM"], 
         [500, "D"], 
         [400, "CD"], 
@@ -18,7 +18,7 @@ def to_roman(num):
     for list in roman_list:
         while num >= list[0]:
             num = num - list[0]
-            answer = (f'{answer}{list[1]}')
+            answer = answer + list[1]
     print(answer)
 
-to_roman(1008) #CVIII
+to_roman(944)
